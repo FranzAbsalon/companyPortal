@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="Tooplate">
+
+        <title>Leaves | Eversun Design Project Test</title>
+
+        <!-- CSS FILES -->      
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
+
+    </head>
+    
+    <body>
+        <header class="navbar sticky-top flex-md-nowrap">
+            <div class="col-md-3 col-lg-3 me-0 px-3 fs-6">
+                <a class="navbar-brand" href="index.html">
+                    <strong>Company E-Portal</strong>
+                </a>
+            </div>
+
+            <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-nav me-lg-2">
+                <div class="nav-item text-nowrap d-flex align-items-center">
+                    <div class="dropdown ps-3">
+                        <a class="nav-link dropdown-toggle text-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="navbarLightDropdownMenuLink">
+                            <i class="bi-bell"></i>
+                            <span class="position-absolute start-100 translate-middle p-1 bg-danger border border-light rounded-circle">
+                                <span class="visually-hidden">New alerts</span>
+                            </span>
+                        </a>
+
+                        <ul class="dropdown-menu dropdown-menu-lg-end notifications-block-wrap bg-white shadow" aria-labelledby="navbarLightDropdownMenuLink">
+                            <small>Notifications</small>
+
+                            <li class="notifications-block border-bottom pb-2 mb-2">
+                                <a class="dropdown-item d-flex  align-items-center" href="#">
+                                    <div class="notifications-icon-wrap bg-success">
+                                        <i class="notifications-icon bi-check-circle-fill"></i>
+                                    </div>
+
+                                    <div>
+                                        <span style="color: #001c44;">Your requested Sick Leave was reverted from Rejected to Pending.</span>
+                                        <p>36m</p>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li class="notifications-block border-bottom pb-2 mb-2">
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <div class="notifications-icon-wrap bg-info">
+                                        <i class="notifications-icon bi-folder"></i>
+                                    </div>
+
+                                    <div>
+                                        <span style="color: #001c44;">Requested Reimbursement was approved!</span>
+                                        <p>1d</p>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li class="notifications-block">
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <div class="notifications-icon-wrap bg-danger">
+                                        <i class="notifications-icon bi-question-circle"></i>
+                                    </div>
+
+                                    <div>
+                                        <span style="color: #001c44;">Requested Sick Leave was Rejected.</span>
+                                        <p>1d</p>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <div class="dropdown px-3">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="images/medium-shot-happy-man-smiling.jpg" class="profile-image img-fluid" alt="">
+                        </a>
+                        <ul class="dropdown-menu bg-white shadow">
+                            <li>
+                                <div class="dropdown-menu-profile-thumb d-flex">
+                                    <img src="images/medium-shot-happy-man-smiling.jpg" class="profile-image img-fluid me-3" alt="">
+
+                                    <div class="d-flex flex-column">
+                                        <small style="color: #001c44;">John Francis</small>
+                                        <small>absalon46@gmail.com</small>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="profile.html">
+                                    <i class="bi-person me-2"></i>
+                                    Profile
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="setting.html">
+                                    <i class="bi-gear me-2"></i>
+                                    Settings
+                                </a>
+                            </li>
+                            
+                            <li class="border-top mt-3 pt-2 mx-4">
+                                <a class="dropdown-item ms-0 me-0" href="#">
+                                    <i class="bi-box-arrow-left me-2"></i>
+                                    Logout
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="container-fluid">
+            <div class="row">
+                <nav id="sidebarMenu" class="col-md-3 col-lg-3 d-md-block sidebar collapse">
+                    <div class="position-sticky py-4 px-3 sidebar-sticky">
+                        <ul class="nav flex-column h-100">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="index.html">
+                                    <i class="bi-house-fill me-2"></i>
+                                    Dashboard
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="attendance.html">
+                                    <i class="bi bi-calendar pe-2"></i> 
+                                    Attendance
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="payslips.html">
+                                    <i class="bi bi-wallet2 pe-2"></i>
+                                    Payslips
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link active" href="leave.html">
+                                    <i class="bi bi-luggage pe-2"></i>
+                                    File Leave
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="reimburse.html">
+                                    <i class="bi bi-file-earmark pe-2"></i>
+                                    Reimbursements
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="holidays.html">
+                                    <i class="bi bi-calendar-check pe-2"></i>
+                                    Holidays
+                                </a>
+                            </li>
+
+                            <li class="nav-item border-top mt-auto pt-2">
+                                <a class="nav-link" href="#">
+                                    <i class="bi-box-arrow-left me-2"></i>
+                                    Logout
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+
+                <main class="main-wrapper col-md-9 ms-sm-auto py-4 col-lg-9 px-md-4 border-start">
+                    <div class="title-group mb-3">
+                        <h1 class="h2 mb-0">Leaves</h1>
+                    </div>
+
+                    <div class="row my-4">
+                        <div class="col-lg-12 col-12">
+                            <div class="custom-block bg-white">
+                                <h5 class="mb-4">Balance Leaves</h5>
+                                
+                                <div class="ag-format-container">
+                                    <div class="ag-courses_box">
+
+                                      <div class="ag-courses_item">
+                                        <a href="#" class="ag-courses-item_link">
+                                          <div class="ag-courses-item_bg"></div>
+                                          <div class="ag-courses-item_title">
+                                            Vacation Leave
+                                          </div>
+                                          <div class="ag-courses-item_date-box">
+                                            <span class="ag-courses-item_date">9</span>
+                                          </div>
+                                        </a>
+                                      </div>
+                                  
+                                      <div class="ag-courses_item">
+                                        <a href="#" class="ag-courses-item_link">
+                                            <div class="ag-courses-item_bg"></div>
+                                            <div class="ag-courses-item_title">
+                                              Sick Leave
+                                            </div>
+                                            <div class="ag-courses-item_date-box">
+                                              <span class="ag-courses-item_date">8</span>
+                                            </div>
+                                          </a>
+                                      </div>
+                                  
+                                      <div class="ag-courses_item">
+                                        <a href="#" class="ag-courses-item_link">
+                                            <div class="ag-courses-item_bg"></div>
+                                            <div class="ag-courses-item_title">
+                                              Paternity Leave
+                                            </div>
+                                            <div class="ag-courses-item_date-box">
+                                              <span class="ag-courses-item_date">10</span>
+                                            </div>
+                                          </a>
+                                      </div>
+                                  
+                                      <div class="ag-courses_item">
+                                        <a href="#" class="ag-courses-item_link">
+                                            <div class="ag-courses-item_bg"></div>
+                                            <div class="ag-courses-item_title text-muted">
+                                              Maternity Leave
+                                            </div>
+                                            <div class="ag-courses-item_date-box">
+                                                <p class="text-muted">Female Only:
+                                              <span class="ag-courses-item_date text-muted">0</span></p>
+                                            </div>
+                                          </a>
+                                      </div>
+                                  
+                                      <div class="ag-courses_item">
+                                        <a href="#" class="ag-courses-item_link">
+                                            <div class="ag-courses-item_bg"></div>
+                                            <div class="ag-courses-item_title">
+                                              Date Hired
+                                            </div>
+                                            <div class="ag-courses-item_date-box">
+                                              <span class="ag-courses-item_date">9</span>
+                                            </div>
+                                          </a>
+                                      </div>
+                                  
+                                      <div class="ag-courses_item">
+                                        <a href="#" class="ag-courses-item_link">
+                                            <div class="ag-courses-item_bg"></div>
+                                            <div class="ag-courses-item_title">
+                                              Bonus Leave
+                                            </div>
+                                            <div class="ag-courses-item_date-box">
+                                              <span class="ag-courses-item_date">4</span>
+                                            </div>
+                                          </a>
+                                      </div>
+                                    </div>
+                                </div>
+                                
+                                <h5 class="mb-4">Leave Requests</h5>
+                                <div class="table-responsive">
+                                    <table class="account-table table">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Leave Type</th>
+                                                <th scope="col">Date Proposed</th>
+                                                <th scope="col">Date Requested</th>
+                                                <th scope="col">Mode</th>
+                                                <th scope="col">Status</th>
+                                            </tr>
+                                        </thead>
+
+                                        <tbody>
+                                            <tr>
+                                                <td scope="row"><a href="#"> Sick Leave</a></td>
+                                                <td scope="row">11/13/2023</td>
+                                                <td scope="row">11/12/2023</td>
+                                                <td scope="row">Whole Day</td>
+                                                <td scope="row"><span class="badge rounded-pill text-bg-primary">Pending</span></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td scope="row"><a href="#"> Bonus Leave</a></td>
+                                                <td scope="row">11/4/2023</td>
+                                                <td scope="row">11/3/2023</td>
+                                                <td scope="row">Whole Day</td>
+                                                <td scope="row"><span class="badge rounded-pill text-bg-danger">Rejected</span></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td scope="row"><a href="#"> Vacation Leave</a></td>
+                                                <td scope="row">10/31/2023</td>
+                                                <td scope="row">10/18/2023</td>
+                                                <td scope="row">Whole Day</td>
+                                                <td scope="row"><span class="badge rounded-pill text-bg-success">Approved</span></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <footer class="site-footer">
+                        <div class="row">
+                            <p class="copyright-text">Copyright © Company Name | 2023
+                        </div>
+                    </footer>
+                </main>
+
+
+            </div>
+        </div>
+
+        <!-- JAVASCRIPT FILES -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/apexcharts.min.js"></script>
+        <script src="js/custom.js"></script>
+
+    </body>
+</html>
